@@ -1,0 +1,13 @@
+ALGORITHM
+1.Input: Number of Student as n
+	 Each Characters of Names of Students as array arr
+2.Delclare dictionary as dict
+3.Iterate for each i in arr
+4.	x=i in lowerCase
+5.	if x in dict
+6.	    dict[x]=dict[x]+1
+7.	else
+8.           dict[x]=1
+9.Iterate for each i in dict
+	print(i.dict[i])	     
+10.End
